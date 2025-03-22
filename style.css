@@ -1,0 +1,31 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#cmd-input {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
